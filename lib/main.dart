@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
-        backgroundColor: Colors.blue,
+        backgroundColor: const Color.fromRGBO(39, 49, 59, 1),
       ),
       body: allPosts.isEmpty
           ? const Center(child: CircularProgressIndicator())
